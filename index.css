@@ -1,0 +1,44 @@
+body {
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+     display: flex; 
+     flex-direction: column; 
+     align-items: center; 
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.result {
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px; 
+    background: #ccc;
+    cursor: pointer; 
+}
+
+img {
+     height: 200px;
+     border-radius: 5px; 
+     margin-bottom: 10px; 
+}
